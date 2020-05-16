@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;}
+    body::-webkit-scrollbar {
+        display: none;
+      }
+
+      /* mobile*/
+      @media screen and (min-width: 480px) {
+
+        body{
+          width: 375px;
+         
+        }
+        
+      }
+     
+      

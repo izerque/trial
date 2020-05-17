@@ -24,21 +24,26 @@
   
         }
         .image{
-          width: 60%;
+          width: 62%;
           height:80%;
           border-radius: 5px;
           margin-top:25px;
+          
+                  
 
         }
+       
         .main_container{
           background-color: rgb(255, 255, 255);
           border-radius: 5px;
           padding: 4px;
           background-image: url(./images/pattern-curve.svg);
           background-repeat: no-repeat;
-          background-size: 80%;
-          background-position-x: left;
-          background-position: bottom;          
+          background-size: 70%;
+          
+          background-position: bottom; 
+          width: 100%; 
+                 
         }
         .info_container{
          text-align: center;
@@ -53,15 +58,59 @@
         .paragraph{
           
           padding-left: 30px;
-          font-size: 19px;
+          font-size: 18px;
           color: rgb(47, 46, 48);
-          padding: 30px;        
+          padding: 30px;  
+          fo      
    
         } 
         .titles_container{
           text-align: center;
+          
+          margin-top: 10px;
+          padding: 0px;
 
         }
+        .titles_container_title{
+          color: rgba(192, 192, 238, 0.945);
+          padding: 0px;
+         margin-bottom: 80px;
+          margin-top: 0px;
+
+        }
+        .titles_container_name{
+          font-weight: bold;
+          font-size: 14px;         
+          margin-bottom: 0px;
+        }
+        .nav_button_container{
+          margin-top: -50px;
+          
+          height: 30px;
+          text-align: center;
+          padding-left: 150px;
+        }
+        .nav_button{
+          width: 5%;
+          height: 30px;
+          background-color: rgb(252, 252, 253);
+          display: flex;
+          text-align: center;
+          border-radius: 20px;
+         /* margin-top: -20px;*/
+          position: absolute;
+          margin: auto;
+          box-shadow: 30px 0px 10px 10px rgba(0, 0, 0, 0.288);*/
+         
+                   
+          
+        }
+        .nav_button_slide{
+          
+          margin: auto;
+          height: 40%;
+        }
+
        
       }
      

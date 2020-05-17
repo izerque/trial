@@ -9,9 +9,60 @@
 
         body{
           width: 375px;
+          height: 2000px;
          
         }
-        
+        .image_container{
+          width: 100%;
+          height:300px;
+          background-color: rgb(255, 255, 255);
+          align-content: center;
+          text-align:center;
+          background-image: url(./images/pattern-bg.svg);
+          background-size: contain;
+
+  
+        }
+        .image{
+          width: 60%;
+          height:80%;
+          border-radius: 5px;
+          margin-top:25px;
+
+        }
+        .main_container{
+          background-color: rgb(255, 255, 255);
+          border-radius: 5px;
+          padding: 4px;
+          background-image: url(./images/pattern-curve.svg);
+          background-repeat: no-repeat;
+          background-size: 80%;
+          background-position-x: left;
+          background-position: bottom;          
+        }
+        .info_container{
+         text-align: center;
+          width:100%;
+          height:150px;
+          margin: auto;
+          background-image: url(./images/pattern-quotes.svg);
+          background-repeat: no-repeat;
+          background-position-x: center;
+          background-size: 18%;
+        }
+        .paragraph{
+          
+          padding-left: 30px;
+          font-size: 19px;
+          color: rgb(47, 46, 48);
+          padding: 30px;        
+   
+        } 
+        .titles_container{
+          text-align: center;
+
+        }
+       
       }
      
       
